@@ -1,0 +1,17 @@
+*.csv
+*.xlsx
+*.py[col]
+.idea
+.idea/
+*.pyc
+doc/_build
+*.log
+alpha_runner_test.py
+/venv
+.python-version
+/.vscode
+.DS_Store
+*.ipynb
+__pycache__/
+
+
