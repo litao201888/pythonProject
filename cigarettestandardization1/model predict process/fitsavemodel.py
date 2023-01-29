@@ -14,12 +14,12 @@ from sklearn.model_selection import GridSearchCV
 import numpy as np
 import pandas as pd
 
-# from cigarettestandardization1.config import e1fitsavemodel_setting as e1
+from cigarettestandardization1.config import e1fitsavemodel_setting as e1
 
-import os
-import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from config import e1fitsavemodel_setting as e1
+# import os
+# import sys
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# from config import e1fitsavemodel_setting as e1
 
 def get_evaluating_indicator(y_real, y_pred, method='passrate', prrange=1):
     '''
